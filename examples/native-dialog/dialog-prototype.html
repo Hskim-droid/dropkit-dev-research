@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Native dialog probe</title>
+<button id="open-dialog" type="button">Open confirmation</button>
+<dialog id="confirmation" aria-labelledby="dialog-title">
+  <h1 id="dialog-title">Confirm the change</h1>
+  <p>This isolated probe uses fictional content.</p>
+  <button id="cancel" type="button" autofocus>Cancel</button>
+  <button id="continue" type="button">Continue</button>
+</dialog>
+<script>
+  const dialog = document.querySelector("#confirmation");
+  const trigger = document.querySelector("#open-dialog");
+  trigger.addEventListener("click", () => dialog.showModal());
+  document.querySelector("#cancel").addEventListener("click", () => dialog.close());
+  document.querySelector("#continue").addEventListener("click", () => dialog.close("confirmed"));
+  dialog.addEventListener("keydown", event => {
+    if (event.key !== "Tab") return;
+    const tabbable = [...dialog.querySelectorAll('button:not(:disabled), a[href], input:not(:disabled), select:not(:disabled), textarea:not(:disabled), [tabindex]:not([tabindex="-1"])')]
+      .filter(element => !element.hidden && element.getClientRects().length > 0);
+    const first = tabbable[0];
+    const last = tabbable[tabbable.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  });
+</script>
