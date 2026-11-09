@@ -1,0 +1,22 @@
+{
+  "version": "0.2",
+  "files": {
+    "BRIEF.md": "fdd3dc96c0b3ac69b6dab24f3ad33a6ae2e50f2ed1df34cee897b0c75fdd4abf",
+    "CHANGELOG.md": "bab03b160012610018f27708190670c965abeb60b1f1d511232477e2cda15cc5",
+    "CHECKS.md": "5abef94679127fe63fdcf8ba47356f9bb79b119f26489e78d9c78e795ec7edf5",
+    "IMPLEMENTATION-BRIEF-TEMPLATE.md": "c176e8c991d6f9fd145a74b0bc20c451a09d6fe838287fac6d3844d193287575",
+    "LICENSE": "40b114a5d4ac9b650c1ae04621ff159dcf555a09a29bbc57926bbebfdcb607ea",
+    "LICENSE-DOCUMENTATION.md": "e0e6f8927fc5d07d032404d7a14603fa09e2429b6290879822c68c57f0806501",
+    "README.md": "5e1914cb94ad965b26e920ef045a549c4609c0fc7551ef2f9902da41c0cb6f20",
+    "RESEARCH-TEMPLATE.md": "3377811c44d9a83af4d1505036bd6e032a7f57736cfcbe9d25a6c04ff4cdae9d",
+    "SOURCES-TEMPLATE.csv": "149d9d48d1f29ddc58f2ce9af57645d0526bf197f8ad4d1018ee907e759accd5",
+    "START.md": "96cc9ad328453554de5e05d4c5969427243faa88b18ac4f9e1d9d60636e04cb2",
+    "WORKFLOW.md": "394b3ca0d0a99d1159f062b9c0a1ec296fa3c971c4190584299da868c785408b",
+    "examples/native-dialog/IMPLEMENTATION-BRIEF.md": "c3375850322c53b8351792ee8b67cdde3a6a45ed588450a54576936a5201a056",
+    "examples/native-dialog/PROBE-RESULTS.md": "7cf621c1ba1caeed9ea2a6c967282813698777f510fe5f99006cc159038b34bf",
+    "examples/native-dialog/README.md": "7c50a6a84e32b44372c993537615a6048ae2f78ac2a0e0d1813c605cbf978721",
+    "examples/native-dialog/RESEARCH.md": "25f9c89fa0ffccaba664de35cc8a3d078c265cec4907eba81a8ea9aca8fa5a8a",
+    "examples/native-dialog/SOURCES.csv": "b2af2efa4b85b4b094cbee68438eaf25a06a7b5ece54a8b3479ddbc591b016f7",
+    "examples/native-dialog/dialog-prototype.html": "af1023db4e88b207fa0faf971e489a0afae884a893a7dca65dd40b9bd20549cc"
+  }
+}
