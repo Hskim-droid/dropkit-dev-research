@@ -25,3 +25,7 @@ The reusable templates were applied to a synthetic decision and checked for sour
 ## Example
 
 See [`examples/native-dialog/`](examples/native-dialog/README.md) for a source-backed comparison of native HTML `<dialog>` and a custom ARIA dialog. The example identifies its synthetic target and distinguishes documentation review from executed checks.
+
+## DropKit
+
+[Explore the kits and study notes](https://dropkit-contents.pages.dev/).
