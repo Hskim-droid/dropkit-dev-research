@@ -6,3 +6,7 @@
 - Added a source ledger with access date, revision status, reading depth, supported claims and limitations.
 - Kept the recommendation and implementation brief separate from any claim that a real application was modified.
 - Cross-workspace behavior and real-repository implementation remain unverified.
+
+## 2026-11-15
+
+Add a browser-preferences research example with explicit reading depth and unexecuted acceptance checks.

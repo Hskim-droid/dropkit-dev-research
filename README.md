@@ -29,3 +29,7 @@ See [`examples/native-dialog/`](examples/native-dialog/README.md) for a source-b
 ## DropKit
 
 [Explore the kits and study notes](https://dropkit-contents.pages.dev/).
+
+## Additional bounded example
+
+[Browser preferences](examples/browser-preferences/RESEARCH.md) connects a source ledger, alternatives and an implementation proposal. It is a documentation-level study; execution and independent-environment compatibility are not claimed.
